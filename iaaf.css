@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*body{
+  font-family: Arial, sans-serif;
+    background: #8A8A8A;
+    color: #242a36;
+  
+}*/
+/*body {
+    font-family: Arial, sans-serif;
+    background: #8A8A8A;
+    color: #242a36;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}*/
+body {
+    font-family: Arial, sans-serif;
+    background: #8A8A8A;
+    color: #242a36;
+
+    min-height: 100vh;
+    min-height: 100svh;
+
+    display: flex;
+    flex-direction: column;
+}/*
+  background-image: url("https://media.newindianexpress.com/newindianexpress%2F2024-10-06%2F99v7u5r7%2FC_1_1_CH1153_10375956.jpg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&w=1200");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;*/
+
+  
+
+.logo{
+  display: flex;
+  align-iems: center;
+  justify-content: center;
+}
+.heading{
+  color:white;
+  padding: 20px;
+}
+.p{
+  font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.2;
+  display: flex;
+    justify-content: center;
+   align-items: center;
+  padding-top: 10px;
+  
+}
+
+.a{
+  font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.2;
+  display: flex;
+    justify-content: center;
+   align-items: center;
+  color:white;
+ padding: 10px
+}
+.c{
+   padding-top: 35px;
+}
+.h{
+  font-size: 28px;
+  letter-spacing: 0px
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.btn button {
+    width: 350px;
+    border-radius: 40px;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    padding: 12px 20px;
+
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: #B9E0ED;
+    color:#171D3B;
+}
+btn:hover {
+    background-color: #FFFFFF;
+}
+/*footer{
+  height: 50px;
+  width:100%;
+  background-color: #171D3B;
+  text-align: center;
+  color:white;
+  padding: 20px;
+}
+
+footer {
+    min-height: 60px;
+    width: 100%;
+    background-color: #171D3B;
+    text-align: center;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+}*/
+footer {
+    min-height: 70px;
+    width: 100%;
+
+    background-color: #171D3B;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 15px;
+
+    margin-top: auto;
+}
+button:last-child {
+    margin-bottom: 40px;
+}

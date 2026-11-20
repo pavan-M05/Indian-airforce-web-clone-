@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: 500;
+  background: #eeeeee;
+  color: #222;
+}
+
+/* 
+.hero {
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  text-align: center;
+  background: linear-gradient(rgba(20, 25, 40, 0.48), rgba(20, 25, 40, 0.65)),
+    url("https://images.unsplash.com/photo-1474302770737-173ee21bab63?auto=format&fit=crop&w=1400&q=80");
+  background-color: #858585;
+  background-size: cover;
+  background-position: center;
+}
+
+.topbar {
+  min-height: 55px;
+  background: #17203f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 6%;
+}
+
+.brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.topbar nav {
+  display: flex;
+  gap: 22px;
+}
+
+.topbar nav a,
+.footer-links a,
+.social a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.menu-btn {
+  display: none;
+  color: white;
+  background: none;
+  border: 0;
+  font-size: 24px;
+}
+
+.hero-content {
+  padding: 35px 15px 75px;
+}
+
+.crest {
+  font-size: 65px;
+  color: #f2c34c;
+  margin-bottom: 8px;
+}
+
+.hero-content h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.hero-content p {
+  margin: 8px 0 35px;
+}
+
+.hero-content h2 {
+  font-size: 19px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+
+.hero-content .hindi {
+  margin: 8px 0 20px;
+}
+
+.round-btn {
+  display: block;
+  width: 235px;
+  max-width: 90%;
+  margin: 12px auto;
+  padding: 13px;
+  border-radius: 30px;
+  background: #addce8;
+  color: #17203f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 13px;
+  background: #17203f;
+  font-size: 11px;
+}
+
+*/
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  min-height: 500px;
+}
+
+.casb-header {
+  background: #17203f;
+  color: white;
+  padding: 13px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.casb-brand {
+  font-weight: bold;
+}
+
+.roundel {
+  color: #f5a623;
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.small-menu {
+  color: white;
+  background: none;
+  border: 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.helpdesk {
+  font-size: 13px;
+  line-height: 1.7;
+  padding: 20px 18px 8px;
+}
+
+.helpdesk strong {
+  color: #d62828;
+}
+
+.helpdesk a {
+  color: #333;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 10px 30px;
+}
+
+.action {
+  width: 245px;
+  max-width: 90%;
+  padding: 16px 12px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 3px 8px #bbb;
+  font-size: 14px;
+}
+
+.action span {
+  margin-right: 8px;
+  font-size: 19px;
+}
+
+.login {
+  background: #f36e61;
+}
+
+.awards {
+  background: #55c5c0;
+}
+
+.announcement {
+  background: #748bdc;
+}
+
+.news {
+  padding: 0 15px 25px;
+}
+
+.news h2 {
+  background: #b9ddf7;
+  color: #263a57;
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 13px;
+  margin-bottom: 15px;
+}
+
+.news ul {
+  padding-left: 25px;
+}
+
+.news li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 13px;
+}
+
+.news a {
+  color: blue;
+}
+
+.awards-section {
+  padding: 20px;
+  min-height: 110px;
+  background: #f7f7f7;
+}
+
+.awards-section h2 {
+  margin-bottom: 12px;
+}
+
+.contact {
+  background: #17203f;
+  color: white;
+  padding: 20px;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+
+.contact h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #17203f;
+  color: white;
+  padding: 25px 7% 15px;
+  line-height: 1.9;
+}
+
+.footer-links,
+.social {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+footer h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer-copy {
+  border-top: 1px solid #46506c;
+  padding-top: 12px;
+  text-align: center;
+  font-size: 11px;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+  .topbar {
+    padding: 12px 15px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .topbar nav {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background: #17203f;
+    flex-direction: column;
+    padding: 15px;
+    z-index: 5;
+  }
+
+  .topbar nav.show {
+    display: flex;
+  }
+
+  .hero-content h1 {
+    font-size: 25px;
+  }
+
+  .helpdesk {
+    font-size: 12px;
+  }
+
+  .news li {
+    font-size: 13px;
+  }
+}
+
+
